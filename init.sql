@@ -1,0 +1,9 @@
+CREATE DATABASE 'blog'
+CREATE DATABASE 'blog2'
+
+USE 'blog'
+
+CREATE TABLE Article (
+    Id INT PRIMARY KEY IDENTITY (1, 1),
+    text VARCHAR(255)
+)
